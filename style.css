@@ -1,0 +1,86 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #232323;   
+}
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+#top{
+    background-color: #4278AB;
+}
+.square{
+    box-sizing: border-box;
+    width: 30%; 
+    float: left;
+    background-color: aqua;
+    padding: 12%;
+    margin: 1.5%;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: background .4s;
+    -webkit-transition: background .4s;
+    -moz-transition: background .4s;
+
+}
+#message{
+    color: white;
+} 
+#colorDisplay{
+    display: block;
+    font-size: 48px;
+    font-weight: 300;
+}
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black ;
+}
+span{
+    display: block;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+/* #new-color{
+    border: none;
+    background-color: transparent;
+
+} */
+.selected{
+    background-color: #4278AB;
+    color: white;
+}
+button{
+    background-color: transparent;
+    border: 0px;
+    height: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 5px;
+    padding: 0 10px;
+    color: #4278AB;
+    transition: all .5s;
+}
+button:hover {
+    cursor: pointer;
+    background-color: steelblue;
+    color: white;
+}
